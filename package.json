@@ -5,10 +5,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    
+  "build": "vite build && npm run copy-assets",
+  "copy-assets": "cp -r src/assets dist/assets",
+
+
     "predeploy":"npm run build",
     "deploy":"gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
+    
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
