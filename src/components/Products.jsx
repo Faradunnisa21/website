@@ -38,12 +38,12 @@ const Products = () => {
               <p className='text-base text-neutralGrey mb-8'>British Dragon Boat Racing Association</p>
               <div>
                 <div className='flex items-center gap-8 flex-wrap'>
-                  <img src="/src/assets/company1.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company2.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company3.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company4.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company5.png" alt="" className='cursor-pointer' />
-                  <img src="/src/assets/company6.png" alt="" className='cursor-pointer' />
+                  <img src={company1.png} alt="" className='cursor-pointer' />
+                  <img src={company2.png} alt="" className='cursor-pointer' />
+                  <img src={company3.png} alt="" className='cursor-pointer' />
+                  <img src={company4.png} alt="" className='cursor-pointer' />
+                  <img src={company5.png} alt="" className='cursor-pointer' />
+                  <img src={company6.png} alt="" className='cursor-pointer' />
                   <div className='flex items-center gap-8'>
                     <a href="/" className='font-bold text-brandPrimary hover:text-neutral-700'>Meet all customers {" "}
                       <svg xmlns='http://www.w3.org/2000/svg'

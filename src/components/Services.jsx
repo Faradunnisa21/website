@@ -7,7 +7,7 @@ const Services = () => {
     const services = [
         { id: 1, title: "Membership Organisations", description: "Our membership management software provides ful automation of membership renewals and payments", image: "/src/assets/blog1.png" },
         { id: 2, title: "National Associations", description: "Our membership management software provides ful automation of membership renewals and payments", image: "/src/assets/blog2.png" },
-        { id: 3, title: "Clubs And Groups", description: "Our membership management software provides ful automation of membership renewals and payments", image: "/src/assets/blog3.png" },
+        { id: 3, title: "Clubs And Groups", description: "Our membership management software provides ful automation of membership renewals and payments",image: "/src/assets/blog3.png" },
     ]
 
     return (
@@ -17,13 +17,13 @@ const Services = () => {
                 <p className='text-neutralDGrey'>We have been working with some Fortune 500+ clients</p>
 
                 <div className='my-12 flex flex-wrap justify-between items-center gap-8'>
-                    <img src="/src/assets/company1.png" alt="" />
-                    <img src="/src/assets/company2.png" alt="" />
-                    <img src="/src/assets/company3.png" alt="" />
-                    <img src="/src/assets/company4.png" alt="" />
-                    <img src="/src/assets/company5.png" alt="" />
-                    <img src="/src/assets/company6.png" alt="" />
-                    <img src="/src/assets/company7.png" alt="" />
+                    <img src={company1.png} alt="" />
+                    <img src={company2.png} alt="" />
+                    <img src={company3.png} alt="" />
+                    <img src={company4.png} alt="" />
+                    <img src={company5.png} alt="" />
+                    <img src= {company6.pn} alt="" />
+                    <img src={company7.png} alt="" />
                 </div>
             </div>
 
