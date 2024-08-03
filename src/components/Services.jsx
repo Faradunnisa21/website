@@ -17,13 +17,13 @@ const Services = () => {
                 <p className='text-neutralDGrey'>We have been working with some Fortune 500+ clients</p>
 
                 <div className='my-12 flex flex-wrap justify-between items-center gap-8'>
-                    <img src={company1.png} alt="" />
-                    <img src={company2.png} alt="" />
-                    <img src={company3.png} alt="" />
-                    <img src={company4.png} alt="" />
-                    <img src={company5.png} alt="" />
-                    <img src= {company6.pn} alt="" />
-                    <img src={company7.png} alt="" />
+                    <img src={company1} alt="" />
+                    <img src={company2} alt="" />
+                    <img src={company3} alt="" />
+                    <img src={company4} alt="" />
+                    <img src={company5} alt="" />
+                    <img src= {company6} alt="" />
+                    <img src={company7} alt="" />
                 </div>
             </div>
 

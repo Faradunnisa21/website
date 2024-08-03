@@ -33,7 +33,7 @@ const About = () => {
                     <div className='md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12'>
                         <div className='space-y-8'>
                             <div className='flex items-center gap-4'>
-                                <img src={member.png} alt="" />
+                                <img src={member} alt="" />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>2,245,341</h4>
                                     <p>Members</p>
@@ -43,7 +43,7 @@ const About = () => {
 
 
                             <div className='flex items-center gap-4'>
-                                <img src={clubs.png} alt="" />
+                                <img src={clubs} alt="" />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>46,328</h4>
                                     <p>Clubs</p>
@@ -56,7 +56,7 @@ const About = () => {
 
                         <div className='space-y-8'>
                             <div className='flex items-center gap-4'>
-                                <img src={event.png} alt="" />
+                                <img src={event} alt="" />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>828,867</h4>
                                     <p>Event Bookings</p>
@@ -67,7 +67,7 @@ const About = () => {
 
 
                             <div className='flex items-center gap-4'>
-                                <img src={payment.png} alt="" />
+                                <img src={payment} alt="" />
                                 <div>
                                     <h4 className='text-2xl text-neutralDGrey font-semibold'>1,926,436</h4>
                                     <p>Payments</p>
