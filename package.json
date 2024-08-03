@@ -6,14 +6,11 @@
   "type": "module",
   "scripts": {
     
-  
-  "copy-assets": "cp -r src/assets dist/assets",
-
-
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist",
+    "copy-assets": "xcopy /S /Y \"./src/assets\\*.*\" \"./dist/assets\\\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run copy-assets",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
