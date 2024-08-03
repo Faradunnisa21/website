@@ -1,7 +1,7 @@
 import React from 'react'
-import organisation from './assets/blog1.png'
-import association from './assets/blog2.png'
-import group from './assets/blog3.png'
+import organisation from '../assets/blog1.png'
+import association from '../assets/blog2.png'
+import group from '../assets/blog3.png'
 
 const Services = () => {
     const services = [
